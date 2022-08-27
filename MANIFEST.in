@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include thenexperts *.css
+recursive-include thenexperts *.csv
+recursive-include thenexperts *.html
+recursive-include thenexperts *.ico
+recursive-include thenexperts *.js
+recursive-include thenexperts *.json
+recursive-include thenexperts *.md
+recursive-include thenexperts *.png
+recursive-include thenexperts *.py
+recursive-include thenexperts *.svg
+recursive-include thenexperts *.txt
+recursive-exclude thenexperts *.pyc
