@@ -17,8 +17,20 @@ app_license = "MIT"
 # app_include_js = "/assets/thenexperts/js/thenexperts.js"
 
 # include js, css files in header of web template
-# web_include_css = "/assets/thenexperts/css/thenexperts.css"
-# web_include_js = "/assets/thenexperts/js/thenexperts.js"
+web_include_css = ["/assets/thenexperts/css/thenexperts.css"]
+web_include_js = [
+		"/assets/thenexperts/js/jquery-ui.js",
+        "/assets/thenexperts/js/popper.min.js",
+        "/assets/thenexperts/js/bootstrap.min.js",
+        "/assets/thenexperts/js/owl.carousel.min.js",
+        "/assets/thenexperts/js/jquery.countdown.min.js",
+        "/assets/thenexperts/js/bootstrap-datepicker.min.js",
+        "/assets/thenexperts/js/jquery.easing.1.3.js",
+        "/assets/thenexperts/js/aos.js",
+        "/assets/thenexperts/js/jquery.fancybox.min.js",
+        "/assets/thenexperts/js/jquery.sticky.js",
+        "/assets/thenexperts/js/main.js"
+]
 
 # include custom scss in every website theme (without file extension ".scss")
 # website_theme_scss = "thenexperts/public/scss/website"
