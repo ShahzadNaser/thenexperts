@@ -17,7 +17,7 @@ app_license = "MIT"
 # app_include_js = "/assets/thenexperts/js/thenexperts.js"
 
 # include js, css files in header of web template
-web_include_css = ["/assets/thenexperts/css/thenexperts.css"]
+web_include_css = ["/assets/thenexperts/css/bd-coming-soon.css"]
 web_include_js = [
 		"/assets/thenexperts/js/jquery-ui.js",
         "/assets/thenexperts/js/popper.min.js",
